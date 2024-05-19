@@ -1,0 +1,94 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 2em 0; /* Ajoute un espace supplémentaire en haut et en bas du header */
+  }
+  
+  h1 {
+    margin: 0; /* Supprime la marge par défaut du h1 */
+  }
+  
+  #search {
+    width: 70%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  #recettes-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .recette {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recette h2 a {
+    color: orange; /* Couleur orange pour les liens */
+    text-decoration: none; /* Supprime le soulignement du lien */
+  }
+  
+  .recette h2 a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol du lien */
+  }
+  
+  .recette p {
+    margin-bottom: 10px;
+  }
+  
+  .recette .categorie {
+    font-style: italic;
+    color: #777;
+  }
+  
+  .recette .etoiles {
+    color: orange;
+  }
+  
+  .recette .commentaires {
+    color: #777;
+  }
+  
+  .recette .ingredients {
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 600px) {
+    #recettes-container {
+      padding: 10px;
+    }
+    
+    .recette {
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+  }
+  
